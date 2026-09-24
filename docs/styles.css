@@ -515,7 +515,7 @@ text-align:center;}
 
 .lion-images {
   display: flex;
-  gap: 0rem;
+  gap: 1rem;
 }
 
 .lion-images img {
