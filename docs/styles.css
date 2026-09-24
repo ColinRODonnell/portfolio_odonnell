@@ -383,11 +383,13 @@ main > section > h2 {
   display: flex;
   flex-wrap: wrap;
   gap: 0.4rem;
+ 
 }
 .tags li {
   font-size: 0.75rem;
-  color: var(--ink-soft);
-  border: 1px solid var(--line);
+  background-color:#041E42;
+  color: white;
+  border: 1px solid var(--pine);
   border-radius: 999px;
   padding: 0.15rem 0.6rem;
 }
@@ -499,24 +501,30 @@ text-align:center;}
   list-style: none;
   padding: 0;
 }
-.lion {
-  width: fit-content;
-  margin: 0 auto;
-}
+
+
 .lion:hover {
     transform:scale(1.1); 
      transition: transform 0.8s ease;
 }
 
-.lion img {
-  display: block;
-  width: 900px;
-  max-width: 100%;
+.lion {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.lion-images {
+  display: flex;
+  gap: 0rem;
+}
+
+.lion-images img {
+   width: calc(50% - 0.5rem);
   height: auto;
 }
 
 .lion figcaption {
-  background:white;
   text-align: center;
+  background: white;
+  width: 100%;
 }
-
